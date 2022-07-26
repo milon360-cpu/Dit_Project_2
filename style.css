@@ -1,0 +1,140 @@
+/* Browser reset code started here  */
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+/* Browser reset code end here  */
+
+/* fist sections style started here  */
+.section-1 
+{
+    background-image:linear-gradient(rgba(13, 22, 92, 0.692),rgba(13, 22, 92, 0.692)), url("./images//banner1.jpg");
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-details 
+{
+  position: relative;
+}
+.title-and-details 
+{
+    position: absolute;
+    right: 0px;
+    color: white;
+    top: 260px;
+}
+.btn 
+{
+    border-radius: 100px;
+}
+
+/* Second section style started here  */
+.chef-img img
+{
+   width: 40%;
+}
+.chef-img
+{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+.chef-details 
+{
+    padding: 20px;
+}
+.chef-details p 
+{
+    text-align: justify;
+}
+
+/* 3rd sections style started here  */
+.section-3 
+{
+    background-color:#E8EFDD ;
+    padding: 80px 10px;
+}
+.res-card
+{
+   text-align: center;
+   margin: 10px;
+   transition: .4s all;
+   padding: 10px;
+   position: relative;
+   bottom: 0;
+   border-radius: 5px;
+}
+.res-card:hover 
+{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.317);
+    bottom: 15px;
+}
+.res-card i 
+{
+    font-size: 50px;
+    background-color: #E8EFDD;
+    padding: 20px 25px;
+    border-radius: 200px;
+    color: goldenrod;
+    border: 2px solid rgba(66, 65, 65, 0.313);
+    margin-bottom: 20px;
+}
+/* 4th sections style started here  */
+.section-4
+{
+    padding: 50px 10px;
+}
+.food-images img
+{
+    margin: 10px;
+}
+.img-1 
+{
+    width: 300px;
+}
+.img-2 
+{
+    width: 200px;
+    position: relative;
+    bottom: -70px;
+
+}
+.img-3 
+{
+    width: 200px;
+    position: relative;
+    top: -20px;
+}
+.img-4
+{
+    width: 350px;
+}
+/* Responsive section here  */
+@media screen and (max-width:667px)
+{
+    .title-and-details 
+    {
+        top: 100px;
+    }
+}
+@media screen and (max-width:770px)
+{
+    .food-images img 
+    {
+        width: 100%;
+    }
+    .img-3 
+    {
+        top: 0;
+    }
+    .img-2 
+    {
+        bottom: 0;
+    }
+}
